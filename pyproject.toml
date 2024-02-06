@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "fastapi-websocket"
+version = "0.1.0"
+description = ""
+authors = ["Leon Balloni <leon.balloni@makes.ai>"]
+readme = "README.md"
+packages = [{include = "fastapi_websocket"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
+pymongo = "^4.6.1"
+websockets = "^12.0"
+uvicorn = "^0.24.0.post1"
+python-engineio = "^4.8.1"
+python-socketio = "^5.10.0"
+netifaces = "^0.11.0"
+loguru = "^0.7.2"
+pydantic = "^2.5.3"
+pytz = "^2023.3.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
