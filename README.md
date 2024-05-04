@@ -2,7 +2,7 @@
 
 **OBS**: por motivos que não compreendo ainda, o websocket não executa em navegadores Chrome.
 
-O exemplo faz uso de Python, FastAPI, Poetry e Python-socketio como base para servidor no Backend e Javascript, React, Node e Socket.io para o cliente-servidor no Frontend. Outros pacotes foram utilizados e estão descritos nos pacotes de gerenciamento de bibliotecas e versões de ambas as linguagens
+O exemplo faz uso de Python, FastAPI, Poetry e Python-socketio como base para servidor no Backend e Javascript, React, Node e Socket.io para o cliente no Frontend. Outros pacotes foram utilizados e estão descritos nos pacotes de gerenciamento de bibliotecas e versões de ambas as linguagens
 
 
 **Objetivos** 
@@ -78,11 +78,11 @@ e
 ```sh
 npx -v 
 ```
-3. Instale os pacotes do cliente-servidor (pasta cliente_server_socket)
+3. Instale os pacotes do cliente (pasta client)
 ```sh
 npm install 
 ```
-4. inicialize o cliente-servidor (pasta client_server_socket)
+4. inicialize o cliente (pasta client)
 > Terminal:
 npm start
 
@@ -99,7 +99,7 @@ Considere a analogia do ping-pong onde diferentemente do padrão onde mandamos a
 
 ### Para Devs
 
-Websocket ou websockets são interfaces de conexão bidirecional onde há comunicação contínua entre o cliente-servidor e o servidor a partir de um IP único e um identificador (SID) da conexão. 
+Websocket ou websockets são interfaces de conexão bidirecional onde há comunicação contínua entre o cliente e o servidor a partir de um IP único e um identificador (SID) da conexão. 
 
 A comunicação é via **pacotes** que transmitem a comunicação na rede de computadores (mensagem) e destinados para um **endpoint** após seguir um **IP** e **Porta** de um aparelho ligado a rede.  
 
